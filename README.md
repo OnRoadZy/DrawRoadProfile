@@ -8,6 +8,7 @@
 
 源程序：
 
+```
 ;--------------------------------------------------------------
 ;hgc_f.lsp
 ;通过读取路面桩号的Excel表自动绘制道路剖面图：
@@ -208,3 +209,4 @@
     (setq zdm-point (get-zdm-point base-point base-zh base-gc zdm-list i))
     (setq i (1- i))
     (setq zdm-points (cons zdm-point zdm-points))))
+```
